@@ -1,0 +1,1 @@
+ grep grp_image finviz.html |sed 's/^.*<a href/<a href/g'|sed 's/src="/src="https:\/\/finviz.com\//g' |sed 's/a href="/a href="https:\/\/finviz.com\//g'> test.html
